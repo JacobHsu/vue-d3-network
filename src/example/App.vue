@@ -16,12 +16,12 @@
 
 <script>
 import ghIcon from '../assets/github.svg?raw'
-import HelloWorld from '@/components/HelloWorld.vue'
+import d3NetExample from './d3-net-example.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    d3NetExample
   },
   data () {
     return {
