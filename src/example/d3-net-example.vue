@@ -112,7 +112,7 @@ export default {
     data.lastLinkId = 0
     data.settings = {
       maxLinks: 3,
-      maxNodes: 150
+      maxNodes: 10
     }
     data.showHint = true
     data.toaster = null

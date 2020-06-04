@@ -1,3 +1,5 @@
+import faker from 'faker'
+
 // find links by node => [ links ] | null
 export const findLinks = (nodeId, links) => {
   let nodeLinks = []
@@ -82,15 +84,17 @@ export const makeRandomLinks = (nodes, maxLinks) => {
       let target = Math.floor(Math.random() * nodes.length)
       let source = node.id
       id++
-      links.push(newLink(id, source, target))
+      let name = faker.hacker.ingverb() 
+      links.push(newLink(name, source, target))
     }
   }
+
   return links
 }
 
 // random node name
 const newNodeName = () => {
-  return Math.random().toString(36).substring(7)
+  return faker.name.findName() //Math.random().toString(36).substring(7)
 }
 
 // node formatter

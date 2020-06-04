@@ -11,15 +11,15 @@ export default {
       w: 500,
       h: 500
     },
-    force: 350,
+    force: 3000,
     offset: {
       x: 0,
       y: 0
     },
     nodeSize: 20,
     linkWidth: 1,
-    nodeLabels: false,
-    linkLabels: false,
+    nodeLabels: true,
+    linkLabels: true,
     strLinks: true
   }
 }
