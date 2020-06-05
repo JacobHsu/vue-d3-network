@@ -70,8 +70,8 @@ const isLinked = (nodeId, links) => {
 }
 
 // link formatter
-export const newLink = (id, sid, tid) => {
-  return { id, sid, tid }
+export const newLink = (id, sid, tid, name) => {
+  return { id, sid, tid, name }
 }
 
 // generates random links => [ links ]
@@ -85,7 +85,7 @@ export const makeRandomLinks = (nodes, maxLinks) => {
       let source = node.id
       id++
       let name = faker.hacker.ingverb() 
-      links.push(newLink(name, source, target))
+      links.push(newLink(id, source, target, name))
     }
   }
 

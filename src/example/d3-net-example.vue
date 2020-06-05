@@ -136,7 +136,7 @@ export default {
   },
   methods: {
     linkCb (link) {
-      link.name = 'Link ' + link.id
+      //link.name = 'Link ' + link.id
       return link
     },
     screenShot () {
