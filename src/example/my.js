@@ -5,7 +5,7 @@ export const makeMyNodes = () => {
   let nodes = [
     { id: 0, name: 'one', svgSym: icons.man },
     { id: 1, name: 'two', svgSym: icons.woman },
-    { id: 2, name: 'three' },
+    { id: 2, name: 'three', svgSym: icons.victim },
     { id: 3, name: 'four' },
     { id: 4, name: 'five' },
   ]
