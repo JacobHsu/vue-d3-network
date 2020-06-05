@@ -73,6 +73,7 @@
 </template>
 <script>
 import * as utils from './utils.js'
+import * as my from './my.js'
 import defaultData from './data.js'
 import D3Network from '../vue-d3-network.vue'
 import D3NetExampleMenu from './Menu.vue'
@@ -112,7 +113,7 @@ export default {
     data.lastLinkId = 0
     data.settings = {
       maxLinks: 3,
-      maxNodes: 10
+      maxNodes: 5
     }
     data.showHint = true
     data.toaster = null
@@ -180,9 +181,11 @@ export default {
     reset () {
       this.selected = {}
       this.linksSelected = {}
-      this.nodes = utils.makeRandomNodes(this.settings.maxNodes)
+      //this.nodes = utils.makeRandomNodes(this.settings.maxNodes)
+      this.nodes = my.makeMyNodes()
       this.lastNodeId = this.nodes.length + 1
-      this.links = utils.makeRandomLinks(this.nodes, this.settings.maxLinks)
+      //this.links = utils.makeRandomLinks(this.nodes, this.settings.maxLinks)
+      this.links = my.makeMyLinks(this.nodes, this.settings.maxLinks)
       this.lastLinkId = this.links.length + 1
     },
     changeOptions (options) {

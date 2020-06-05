@@ -156,6 +156,12 @@ export const makeRandomLinks = (nodes, maxLinks) => {
 }
 ```
 
+## References
+
+[d3 | Force layout with images](http://bl.ocks.org/eesur/be2abfb3155a38be4de4)
+[vue-d3-network svg marks example](https://codepen.io/emilio/pen/QOaQjP)
+[vue-d3-network custom icons example](https://codepen.io/emilio/pen/YOeaWN)
+
 ## Project setup
 
 ```
