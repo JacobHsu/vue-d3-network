@@ -74,7 +74,7 @@ export default {
       },
       noNodes: false,
       strLinks: true,
-      fontSize: 10,
+      fontSize: 14,
       dragging: false,
       linkWidth: 1,
       nodeLabels: false,
@@ -444,4 +444,5 @@ export default {
     fill $dark
     transform translate(0, -0.5em)
     text-anchor middle
+
 </style>
