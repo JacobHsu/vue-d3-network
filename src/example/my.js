@@ -1,19 +1,23 @@
 import icons from './icons.js'
-
+// shattered-mirror
 // generates my nodes => [ nodes ]
 export const makeMyNodes = () => {
   let nodes = [
-    { id: 0, name: '陳輕梧', svgSym: icons.victim },
-    { id: 1, name: '孟深', svgSym: icons.gentleman },
-    { id: 2, name: '桂華', svgSym: icons.lady },
-    { id: 3, name: '阿玉', svgSym: icons.man },
-    { id: 4, name: '如靜', svgSym: icons.lady },
-    { id: 5, name: '岳叔叔', svgSym: icons.doctor },
-    { id: 6, name: '林姨', svgSym: icons.lady },
-    { id: 7, name: '夢兒', svgSym: icons.teenage },
-    { id: 8, name: '丫鬟', svgSym: icons.chillinglady },
-    { id: 9, name: '陳奇舟', svgSym: icons.man },
-    { id: 10, name: '蔣醫生', svgSym: icons.doctor },
+    { id: 0, name: '', svgSym: icons.victim },
+    { id: 1, name: '林居尚', svgSym: icons.gentleman },
+    { id: 2, name: '林軫遠', svgSym: icons.man },
+    { id: 3, name: '阿啟', svgSym: icons.man },
+    { id: 4, name: '芬姨', svgSym: icons.lady },
+    { id: 5, name: '馥霜', svgSym: icons.student },
+    { id: 6, name: '林軼廣', svgSym: icons.hiphop },
+    { id: 7, name: '王同槐', svgSym: icons.man },
+    { id: 8, name: '蘭姑', svgSym: icons.lady },
+    { id: 9, name: '王高材', svgSym: icons.man },
+    { id: 10, name: '沙臣海', svgSym: icons.doctor },
+    { id: 11, name: '盧恩健', svgSym: icons.gentleman },
+    { id: 12, name: '盧武哲', svgSym: icons.hiphop },
+    { id: 13, name: '佳憐小姐', svgSym: icons.chillinglady },
+    { id: 14, name: '徐小姐', svgSym: icons.chillinglady }
   ]
   return nodes
 }
@@ -22,19 +26,23 @@ export const makeMyNodes = () => {
 export const makeMyLinks = (nodes, maxLinks) => {
   let links = []
   links = [
-    { id: 1, sid: 1, tid: 2, name:'丫鬟' },
-    { id: 2, sid: 5, tid: 2, name:'出診'},
-    { id: 4, sid: 0, tid: 3, name:'秘書'},
-    { id: 5, sid: 2, tid: 3, name:'母子'},
-    { id: 6, sid: 0, tid: 7, name:'父女'},
-    { id: 7, sid: 0, tid: 4, name:'夫妻'},
-    { id: 8, sid: 10, tid: 7, name:'出診'},
-    { id: 9, sid: 6, tid: 7, name:'親戚'},
-    { id: 10, sid: 0, tid: 9, name:'侄子'},
-    { id: 11, sid: 4, tid: 7, name:'母女'},
-    { id: 12, sid: 7, tid: 8, name:'丫鬟'},
-    { id: 13, sid: 0, tid: 10, name:'義子'},
-    { id: 14, sid: 0, tid: 1, name:'夥伴'},
+    { id: 1, sid: 3, tid: 12, name:'伴讀' },
+    { id: 2, sid: 1, tid: 11, name:'交好'},
+    { id: 3, sid: 2, tid: 3, name:'伴讀'},
+    { id: 4, sid: 1, tid: 2, name:'父子'},
+    { id: 5, sid: 1, tid: 6, name:'父子'},
+    { id: 6, sid: 8, tid: 9, name:'夫妻'},
+    { id: 7, sid: 9, tid: 7, name:'父子'},
+    { id: 8, sid: 4, tid: 1, name:'雇傭'},
+    { id: 9, sid: 4, tid: 5, name:'母女'},
+    { id: 10, sid: 2, tid: 6, name:'兄弟'},
+    { id: 11, sid: 10, tid: 9, name:'法辦'},
+    { id: 12, sid: 11, tid: 12, name:'父子'},
+    { id: 13, sid: 1, tid: 7, name:'雇傭'},
+    { id: 14, sid: 11, tid: 13, name:'父女'},
+    { id: 15, sid: 2, tid: 13, name:'?'},
+    { id: 16, sid: 1, tid: 14, name:'兒媳'}
+
   ]
   return links
 }
