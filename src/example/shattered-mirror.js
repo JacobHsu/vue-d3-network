@@ -6,7 +6,7 @@ export const makeMyNodes = () => {
     { id: 0, name: '', svgSym: icons.victim },
     { id: 1, name: '林居尚', svgSym: icons.gentleman },
     { id: 2, name: '林軫遠', svgSym: icons.man },
-    { id: 3, name: '阿啟', svgSym: icons.man },
+    { id: 3, name: '阿啟', svgSym: icons.nerd },
     { id: 4, name: '芬姨', svgSym: icons.lady },
     { id: 5, name: '馥霜', svgSym: icons.student },
     { id: 6, name: '林軼廣', svgSym: icons.hiphop },

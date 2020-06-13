@@ -11,7 +11,7 @@ export default {
       w: 500,
       h: 500
     },
-    force: 7000,
+    force: 8400,
     offset: {
       x: 0,
       y: 0
