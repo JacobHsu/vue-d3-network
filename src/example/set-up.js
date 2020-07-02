@@ -28,9 +28,16 @@ export const makeMyLinks = (nodes, maxLinks) => {
     { id: 5, sid: 1, tid: 5, name:'欺騙'},
     { id: 6, sid: 2, tid: 6, name:'生意夥伴'},
     { id: 7, sid: 1, tid: 7, name:'路遇'},
-    { id: 8, sid: 2, tid: 7, name:'?'},
-    { id: 9, sid: 0, tid: 2, name:'?'},
+    { id: 8, sid: 2, tid: 7, name:'妻子'},
+    { id: 9, sid: 0, tid: 2, name:'死者'},
     { id: 10, sid: 2, tid: 9, name:'?'},
+    { id: 11, sid: 5, tid: 9, name:'父女', _color: 'pink'},
+    { id: 12, sid: 4, tid: 9, name:'情侶', _color: 'pink'},
+    { id: 13, sid: 4, tid: 8, name:'兄弟', _color: 'pink'},
+    { id: 14, sid: 4, tid: 6, name:'養父子', _color: 'pink'},
+    { id: 15, sid: 3, tid: 4, name:'父子', _color: 'pink'},
+    { id: 16, sid: 3, tid: 0, name:'毒殺', _color: 'dimgray'},
+    { id: 17, sid: 8, tid: 0, name:'斧頭砍', _color: 'dimgray'},
   ]
   return links
 }
