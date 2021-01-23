@@ -1,4 +1,4 @@
-import icons from './icons.js'
+import icons from '../icons.js'
 
 // generates my nodes => [ nodes ]
 export const makeMyNodes = () => {

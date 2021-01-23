@@ -73,7 +73,7 @@
 </template>
 <script>
 import * as utils from './utils.js'
-import * as my from './story/ming.js'
+import * as my from './story/magic-bell-two.js'
 import defaultData from './data.js'
 import D3Network from '../vue-d3-network.vue'
 import D3NetExampleMenu from './Menu.vue'
